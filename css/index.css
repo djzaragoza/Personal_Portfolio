@@ -285,15 +285,18 @@ p {
 footer {
     width: 100%;
     background: black;
+
 }
 
 footer nav {
-    width: 60%;
+    width: 70%;
+    margin-left: 125px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+    align-content: center;
+    padding: 22px 2%;
+    font-size: 16px;
 }
 
 footer nav a {
@@ -384,4 +387,8 @@ footer nav a {
 .about-section p {
     justify-content: center;
     text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
 }
