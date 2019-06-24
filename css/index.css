@@ -65,74 +65,49 @@ h1, h2, h3, h4, h5 {
 /* CSS sprint challenge below */
 
 h2, h3 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 body {
     background-color: solid black;
 }
 
+.name h1 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
 .nav {
-    display: flex;
 	justify-content: space-between;
     margin-bottom: 30px;
+    margin-top: -20px;
     margin-left: 50px;
-    align-self: center;
+    text-align: center;
     text-decoration: none;
+    border: 2px solid black;
+    border-color: solid black;
 }
 
 .nav-link {
 	margin-right: 60px;
 	text-decoration: none;
     color: #9c9c9c;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .links a:hover{
     text-decoration: none;
     color: dodgerblue;
-}
+    background-color: solid black;
 
-header {
-    margin: auto;
-    padding: 20px 0;
 }
-
-.jumbo {
-    margin: center;
-    border-width: 25px 30px 10px 20px;
-}
-
-.jumbo-about {
-    margin: center;
-    border-width: 25px 30px 10px 20px;
-}
-
-.nav-link-about {
-	margin-left: 80px;
-	text-decoration: none;
-	color: #9c9c9c;
-}
-
-.nav-about {
-    display: inline-block;
-	justify-content: space-between;
-    margin-bottom: 30px;
-    margin-top: -20px;
-    margin-right: 80px;
-    padding: -20px;
-}   
 
 p {
     line-height: 1.5;
 }
 
 .container {
-    width: 1280px;
-    margin: 0 auto;
-}
-
-.container-about-page {
     width: 1280px;
     margin: 0 auto;
 }
@@ -293,12 +268,6 @@ p {
     padding-right: 0;
 }
 
-.middle-content-about .about-section {
-    padding: 0 1%;
-    padding-bottom: 20px; 
-    margin-top: 20px;
-}
-
 .middle-content-data  {
     display: flex;
     margin-bottom: 20px;
@@ -407,11 +376,11 @@ footer nav a {
 .fa {
     padding: 10px;
     font-size: 20px;
-    border-radius: 40px;
+    border-radius: 100px;
     width: 40px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 5px 4px;
 }
 
 .fa:hover {
