@@ -73,8 +73,9 @@ body {
 }
 
 .name h1 {
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    font-size: 58px;
+    font-family: 'Bitter', serif;
     text-align: center;
 }
 
