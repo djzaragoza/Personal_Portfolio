@@ -293,29 +293,6 @@ p {
     padding-right: 0;
 }
 
-footer {
-    width: 100%;
-    background: black;
-
-}
-
-footer nav {
-    width: 70%;
-    margin-left: 125px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    padding: 22px 2%;
-    font-size: 16px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
-    justify-content: space-between;
-}
-
 .middle-content-about .about-section {
     padding: 0 1%;
     padding-bottom: 20px; 
@@ -402,4 +379,61 @@ footer nav a {
 
 .copyright {
     text-align: center;
+}
+
+footer {
+    width: 100%;
+    background: black;
+
+}
+
+footer nav {
+    width: 70%;
+    margin-left: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 22px 2%;
+    font-size: 16px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: .7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-github {
+    background: #c9510c;
+    color: white;
 }
