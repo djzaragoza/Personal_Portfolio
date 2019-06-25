@@ -69,19 +69,21 @@ h2, h3 {
 }
 
 body {
-    font-family: arial;
     padding: 10px;
     background: #f1f1f1;
 }
 
-header {
+.header {
     padding: 30px;
     text-align: center;
     background: white;
+    margin-top: -40px;
 }
 
-header h1 {
+.header h1 {
     font-size: 50px;
+    margin-bottom: -20px;
+    font-family: 'Andada', sans-serif;
 }
 
 .topnav {
@@ -100,12 +102,17 @@ header h1 {
 
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
+    color: white;
+    opacity: .7;
 }
 
 .leftcolumn {
     float: left;
     width: 75%;
+}
+
+.card h2 {
+    font-size: 35px;
 }
 
 .rightcolumn {
@@ -150,38 +157,26 @@ header h1 {
     background: solid black;
 }
 
-.dj-image {
-    margin-top: 40px;
-}
-
-
-
-.copyright {
-    text-align: center;
-}
 
 footer {
     width: 100%;
-    background: black;
+    background: lightgray;
 
 }
 
-footer nav {
+footer nav .copyright {
     width: 70%;
     margin-left: 125px;
+    margin-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-content: center;
     padding: 22px 2%;
-    font-size: 16px;
+    font-size: 20px;
+    color: black;
 }
 
-footer nav a {
-    color: white;
-    text-decoration: none;
-    justify-content: space-between;
-}
 
 .fa {
     padding: 10px;
@@ -194,7 +189,7 @@ footer nav a {
 }
 
 .fa:hover {
-    opacity: .6;
+    opacity: .4;
 }
 
 .fa-twitter {
