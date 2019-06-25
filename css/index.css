@@ -72,22 +72,34 @@ body {
     background-color: solid black;
 }
 
-.name h1 {
-    width: 100%;
-    margin-left: -50px;
-    margin-top: 10px;
-    font-size: 58px;
+.success-image {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: left;
+}
+
+span h1 {
+    margin-top: -10px;
+    font-size: 20px;
     font-family: 'Bitter', serif;
-    text-align: right;
+    text-align: left;
+}
+
+.dj-title {
+    margin-top: -10px;
+}
+
+.dj-image {
+    margin-top: 40px;
 }
 
 .nav {
     justify-content: space-between;
     height: 15%;
     width: 95%;
-    background: rgba(132, 148, 128, 0.123);
     margin-bottom: 40px;
-    margin-top: -20px;
+    margin-top: 12px;
     margin-left: 50px;
     text-align: center;
     text-decoration: none;
