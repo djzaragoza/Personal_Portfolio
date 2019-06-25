@@ -74,38 +74,43 @@ body {
 
 .name h1 {
     width: 100%;
+    margin-left: -50px;
+    margin-top: 10px;
     font-size: 58px;
     font-family: 'Bitter', serif;
-    text-align: center;
+    text-align: right;
 }
 
 .nav {
-	justify-content: space-between;
-    margin-bottom: 30px;
+    justify-content: space-between;
+    height: 15%;
+    width: 95%;
+    background: rgba(132, 148, 128, 0.123);
+    margin-bottom: 40px;
     margin-top: -20px;
     margin-left: 50px;
     text-align: center;
     text-decoration: none;
-    border: 2px solid black;
-    border-color: solid black;
 }
 
 .nav-link {
-	margin-right: 60px;
+    margin-right: 60px;
 	text-decoration: none;
-    color: #9c9c9c;
-    font-size: 20px;
+    color: black;
+    font-size: 25px;
 }
 
 .links a:hover{
-    text-decoration: none;
-    color: dodgerblue;
-    background-color: solid black;
-
+    opacity: .2; 
 }
 
 p {
-    line-height: 1.5;
+    line-height: 2;
+}
+
+span {
+    font-weight: 800;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -385,7 +390,7 @@ footer nav a {
 }
 
 .fa:hover {
-    opacity: .7;
+    opacity: .6;
 }
 
 .fa-twitter {
