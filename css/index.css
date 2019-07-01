@@ -106,9 +106,9 @@ body {
 }
 
 .topnav a:hover {
-    color: white;
+    color: orange;
     opacity: .7;
-    transition: .3s;
+    transition: .2s;
 }
 
 .leftcolumn {
@@ -117,7 +117,7 @@ body {
 }
 
 .card h2 {
-    font-size: 35px;
+    font-size: 55px;
 }
 
 .rightcolumn {
@@ -127,8 +127,19 @@ body {
     padding-left: 20px;
 }
 
+.follow {
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+}
+
+.follow:hover {
+    color: orangered;
+}
+
 .card h3 {
     font-size: 30px;
+    font-style: italic;
 }
 
 .card {
@@ -174,12 +185,11 @@ footer {
 
 footer nav .copyright {
     width: 70%;
-    margin-left: 125px;
+    margin-left: 200px;
     margin-top: 15px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    align-content: center;
+    text-align: center;
     padding: 22px 2%;
     font-size: 20px;
     color: black;
@@ -248,9 +258,9 @@ input[type=submit]:hover {
 }
 
 .form-container {
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 30px;
 }
 
 .col-25 {
@@ -260,10 +270,15 @@ input[type=submit]:hover {
 }
 
 .col-75 {
-    float: left;
+    float: right;
     width: 75%;
     margin-top: 6px;
 }
+
+.button {
+    cursor: pointer;
+}
+
 
 /* esponsive layout when the screen is less than 600pxr */
 
