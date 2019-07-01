@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Andada', sans-serif;
 }
 
-/* CSS sprint challenge below */
+/* Styling */
 
 h2, h3 {
     font-size: 20px;
@@ -80,10 +80,14 @@ body {
     margin-top: -40px;
 }
 
-.header h1 {
-    font-size: 50px;
+.top-name h1 {
+    font-size: 65px;
+    color: white;
     margin-bottom: -20px;
-    font-family: 'Andada', sans-serif;
+    font-family: 'Caudex', serif;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
 }
 
 .topnav {
@@ -98,12 +102,13 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 20px;
 }
 
 .topnav a:hover {
-    background-color: #ddd;
     color: white;
     opacity: .7;
+    transition: .3s;
 }
 
 .leftcolumn {
