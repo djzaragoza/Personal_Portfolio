@@ -78,8 +78,8 @@ body {
 }
 
 .header {
-    padding: 30px;
-    text-align: center;
+    padding: 20px;
+    align-content: center;
     background: white;
     margin-top: -40px;
 }
