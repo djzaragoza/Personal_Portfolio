@@ -141,7 +141,13 @@ body {
     border-radius: 1rem;
     padding: 3rem;
     margin-left: -1.5rem;
-    box-shadow: 4px 4px 15px 2px rgba(solid black, 4);
+    box-shadow: 4px 4px 15px 2px rgba(solid black, .75);
+    transition: .2s;
+}
+
+.cards:hover ~ .cards {
+    background: rgb(231, 195, 195);
+    transform: translateX(2rem);
 }
 
 .cards:hover {
