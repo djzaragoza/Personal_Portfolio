@@ -1,0 +1,341 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Andada', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Andada', sans-serif;
+}
+
+/* Styling */
+
+a:hover {
+    color: orangered;
+}
+
+h2, h3 {
+    font-size: 20px;
+}
+
+body {
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+.header {
+    padding: 20px;
+    align-content: center;
+    background: white;
+    margin-top: -40px;
+}
+
+.top-name h1 {
+    font-size: 65px;
+    color: rgb(231, 225, 225);
+    margin-bottom: -20px;
+    font-family: 'Caudex', serif;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    color: orange;
+    opacity: .7;
+    transition: .2s;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+    line-height: 1.2;
+}
+
+.leftcolumn .card h5 {
+    font-size: 18px;
+}
+
+.card-projects h2 {
+    font-size: 55px;
+}
+
+.card-projects {
+    display: flex;
+    margin-top: 50px;
+}
+
+.cards {
+    background: rgb(218, 213, 209);
+    overflow: hidden;
+    display: flex;
+    border-radius: 1rem;
+    padding: 3rem;
+    margin-left: -1.5rem;
+    box-shadow: 4px 4px 15px 2px rgba(solid black, 4);
+}
+
+.cards:hover {
+    transform: translateY(-1rem);
+}
+
+.card h2 {
+    font-size: 55px;
+}
+
+.card h3 {
+    font-size: 35px;
+}
+
+.card {
+    display: grid;
+    place-items: center;
+    background: rgb(223, 221, 219);
+    margin: 0;
+    padding: 40px;
+    margin-top: 20px;
+}
+
+
+
+.rightcolumn {    
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+
+.rightcolumn .card p {
+    font-size: 18px;   
+}
+
+.trending-card {
+    font-size: 20px;
+    color: orangered;
+}
+
+.card-follow {
+    font-size: 30px;
+    font-style: italic;
+    display: flex;
+}
+
+.follow:hover {
+    color: orangered;
+}
+
+.card-follow .follow h3 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.success-image {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    margin-right: 20px;
+    justify-content: right;
+    background: solid black;
+}
+
+
+footer {
+    width: 100%;
+    background: lightgray;
+
+}
+
+footer nav .copyright {
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 15px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 22px 2%;
+    font-size: 20px;
+    color: black;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 100px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 4px;
+}
+
+.fa:hover {
+    opacity: .4;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #cb2027;
+    color: white;
+}
+
+.fa-github {
+    background: #c9510c;
+    color: white;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #34a049;
+}
+
+.form-container {
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: right;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.button {
+    cursor: pointer;
+}
+
+
+/* responsive layout when the screen is less than 600pxr */
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
