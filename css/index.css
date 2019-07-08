@@ -85,7 +85,7 @@ body {
 }
 
 .top-name h1 {
-    font-size: 65px;
+    font-size: 70px;
     color: rgb(231, 225, 225);
     margin-bottom: -20px;
     font-family: 'Caudex', serif;
@@ -147,11 +147,11 @@ body {
 
 .cards:hover ~ .cards {
     background: rgb(231, 195, 195);
-    transform: translateX(2rem);
+    transform: translateX(calc(var(--distance)-2rem));
 }
 
 .cards:hover {
-    transform: translateY(-1rem);
+    transform: translateY(-2rem);
 }
 
 .card h2 {
@@ -171,7 +171,9 @@ body {
     margin-top: 20px;
 }
 
-
+.cards:not(:first-child) {
+    margin-left: var(--distance);
+}
 
 .rightcolumn {    
     float: left;
@@ -182,6 +184,10 @@ body {
 
 .rightcolumn .card p {
     font-size: 18px;   
+}
+
+.SE {
+    font-weight: 800;
 }
 
 .trending-card {
@@ -233,6 +239,23 @@ body {
     background: solid black;
 }
 
+.recommendations-header {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.recommendations {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+}
+
+.recommendations .card-container {
+    padding-right: 4%;
+    margin-top: 40px;
+}
 
 footer {
     width: 100%;
@@ -248,7 +271,7 @@ footer nav .copyright {
     align-items: center;
     text-align: center;
     padding: 22px 2%;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
 }
 
