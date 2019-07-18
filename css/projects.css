@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /* styling */
 
 body {
-    background-image: url("../assets/images/code1.jfif");
+    background-image: url("../assets/images/code2.jfif");
     background-repeat: no-repeat;
     position: absolute;
     margin: 0;
@@ -94,20 +94,20 @@ h3, .timer {
     margin: 0;
 }
 
-.main-content {
+.projects-main-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.lg-cta {
+.projects-lg-cta {
     visibility: hidden;
     font-size: 20px;
     color: white;
     margin-bottom: -20px;
 }
 
-.lg-cta h3 {
+.projects-lg-cta h3 {
     color: lightslategray;
     background-color: #231f20;
     font-size: 45px;
@@ -117,34 +117,35 @@ h3, .timer {
 }
 
 
-.logo {
+.projects-logo {
+    font-size: 25px;
     background-color: #231f20;
     padding: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 
-.site-links {
+.projects-site-links {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    font-size: 20px;
+    float: right;
 }
 
-.site-links > a {
+.projects-site-links > a {
     text-decoration: none;
     color: #fff;
     margin: 0px 15px;
 }
 
-.site-links > a:hover {
+.projects-site-links > a:hover {
     text-decoration: none;
     color: rgb(173, 36, 173);
     transition: .3s;
 }
 
-.notice {
+.projects-notice {
     font-size: 30px;
     display: flex;
     flex-direction: column;
@@ -152,7 +153,15 @@ h3, .timer {
     padding: 0px;
 }
 
-.timer {
+.projects-notice h1 {
+    font-size: 50px;
+}
+
+.projects-notice h3 {
+    font-size: 28px;
+}
+
+.projects-timer {
     background-color: #231f20;
     color: #fff;
     text-align: center;
@@ -192,15 +201,11 @@ footer nav .copyright {
 }
 
 .fa {
-    padding: 10px;
-    font-size: 20px;
     border-radius: 100px;
     width: 40px;
-    text-align: center;
     text-decoration: none;
     margin: 5px 4px;
     color: white;
-    margin-left: -20px;
     transition: .4s;
 }
 
