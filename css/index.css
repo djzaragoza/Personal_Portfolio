@@ -152,6 +152,15 @@ h3, .timer {
     padding: 0px;
 }
 
+.notice h1 {
+    font-size: 55px;
+    color: purple;
+}
+
+.notice h3 {
+    font-size: 30px;
+}
+
 .timer {
     background-color: #231f20;
     color: #fff;
