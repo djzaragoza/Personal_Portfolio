@@ -170,21 +170,17 @@ h3, .timer {
     padding: 10px 14px;
 }
 
+
 footer {
     width: 100%;
-    background: lightgray;
-}
-
-footer .copyright {
-    width: 70%;
-    margin-left: 00px;
-    margin-top: 15px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 22px 2%;
-    font-size: 20px;
-    color: black;
-}
+    color: #22283B;
+    background: #f4f4f4;
+    padding: 10px 0;
+    border: 2px double #e0e0e0;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+ }
 
 @media screen and (min-width: 1400px) {
     .footer { 
