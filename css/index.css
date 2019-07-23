@@ -66,9 +66,6 @@ h1, h2, h3, h4, h5 {
 /* styling */
 
 body {
-    background-image: url("../assets/images/code1.jfif");
-    background-repeat: no-repeat;
-    position: absolute;
     margin: 0;
     height: 100vh;
     width: 100vw;
@@ -94,10 +91,32 @@ h3, .timer {
     margin: 0;
 }
 
-.main-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.coder {
+    font-size: 95px;
+    font-family: 'Geostar', cursive;
+    text-align: center;
+    margin-top: -150px;
+    justify-content: center;
+}
+
+.coder-content p {
+    font-size: 19px;
+    line-height: 1.8;
+    margin-left: 300px;
+    width: 60%;
+    text-align: center;
+    align-content: center;
+    font-family: 'Caveat', cursive;
+
+}
+
+.SD {
+    font-weight: 900;
+    color: crimson;
+}
+
+.projects {
+
 }
 
 .lg-cta {
@@ -119,10 +138,6 @@ h3, .timer {
 
 .logo {
     background-color: #231f20;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 100%;
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -147,33 +162,6 @@ h3, .timer {
     color: rgb(173, 36, 173);
     transition: .3s;
 }
-
-.notice {
-    font-size: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 0px;
-}
-
-.notice h1 {
-    font-size: 55px;
-    color: purple;
-}
-
-.notice h3 {
-    font-size: 30px;
-}
-
-.timer {
-    background-color: #231f20;
-    color: #fff;
-    text-align: center;
-    font-size: 2.5vh;
-    font-family: 'Consolas';
-    padding: 10px 14px;
-}
-
 
 footer {
     width: 100%;
