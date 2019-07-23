@@ -142,7 +142,7 @@ h3, .timer {
 
 .projects-site-links > a:hover {
     text-decoration: none;
-    color: rgb(173, 36, 173);
+    color: crimson;
     transition: .3s;
 }
 
