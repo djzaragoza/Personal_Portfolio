@@ -66,19 +66,11 @@ h1, h2, h3, h4, h5 {
 /* styling */
 
 body {
-    margin: 0;
     height: 100vh;
     width: 100vw;
-    z-index: 1;
-
     font-family: 'Montserrat', sans-serif;
-
     font-size: 1.5vh;
     color: solid black;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 h1, h3 {
@@ -87,24 +79,12 @@ h1, h3 {
     padding: 10px 14px;
 }
 
-h3, .timer {
-    margin: 0;
-}
 
 .projects-lg-cta {
     visibility: hidden;
     font-size: 20px;
     color: white;
     margin-bottom: -20px;
-}
-
-.projects-lg-cta h3 {
-    color: lightslategray;
-    background-color: #231f20;
-    font-size: 45px;
-    text-align: center;
-    align-content: center;
-    font-family: 'Permanent Marker', cursive;
 }
 
 .projects-logo {
@@ -160,7 +140,8 @@ h3, .timer {
 
 /* Add some shadows to create a card effect */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 100px;
 }
 
 /* Some left and right padding inside the container */
