@@ -100,7 +100,8 @@ h1, h3 {
 
 .SD {
     font-weight: 900;
-    color: crimson;
+    color: solid black;
+    font-size: 20px;
 }
 
 .lg-cta {
@@ -189,6 +190,14 @@ h1, h3 {
 
 .container-right {
     left: 50%;
+}
+
+.medium a {
+    color: crimson;
+}
+
+.lambda a {
+    color: crimson;
 }
 
 .container-left::before {
