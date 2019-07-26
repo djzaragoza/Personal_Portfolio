@@ -73,17 +73,9 @@ body {
     font-size: 1.5vh;
 }
 
-#header {
-  background-color: #f1f1f1; /* Grey background */
-  padding: 50px 10px; /* Some padding */
-  color: black;
-  text-align: center; /* Centered text */
-  font-size: 90px; /* Big font size */ 
-  font-weight: bold; 
-  position: fixed; /* Fixed position - sit on top of the page */
-  top: 0; 
-  width: 100%; /* Full width */
-  transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+.main-logo {
+    display: flex;
+    justify-content: center;
 }
 
 h1, h3 {
@@ -100,7 +92,7 @@ h1, h3 {
 }
 
 .coder-content p {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.8;
     margin-left: 300px;
     width: 60%;
@@ -118,8 +110,8 @@ h1, h3 {
 .lg-cta {
     visibility: hidden;
     font-size: 20px;
-    color: white;
-    margin-bottom: -20px;
+    color: black;
+    margin-top: 20px;
 }
 
 .lg-cta a {
@@ -148,18 +140,24 @@ h1, h3 {
 }
 
 .logo {
-    background-color: #231f20;
-    padding: 30px;
-    display: flex;
+    padding: 10px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
+.logo a {
+    text-decoration: none;
+    font-size: 18px; 
+    justify-content: space-between;
+}
+
 .site-links > a {
     text-decoration: none;
-    color: #fff;
-    margin: 0px 15px;
+    text-size: 20px;
+    color: black;
+    justify-content: space-evenly;
+    margin: 0px 5px;
 }
 
 .site-links > a:hover {
@@ -291,7 +289,7 @@ footer {
     border: 2px double #e0e0e0;
     border-radius: 10px;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 @media screen and (min-width: 1400px) {
