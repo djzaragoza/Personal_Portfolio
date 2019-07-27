@@ -71,6 +71,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5vh;
     color: solid black;
+    background-color: rgba(85, 171, 252, 0.712);
 }
 
 h1, h3 {
@@ -85,7 +86,7 @@ h1, h3 {
 
 .projects-logo {
     width: 100%;
-    background-color: lightgray;
+    background-color: white;
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -93,14 +94,14 @@ h1, h3 {
 }
 
 .projects-logo a:hover {
-    color: dodgerblue;
+    color: white;
     transition: .3s;
 }
 
 .projects-site-links {
     display: flex;
     flex-direction: row-reverse;
-    font-size: 20px;
+    font-size: 25px;
     float: left;
 }
 
@@ -112,7 +113,7 @@ h1, h3 {
 
 .projects-site-links > a:hover {
     text-decoration: none;
-    color: dodgerblue;
+    color: darkgrey;
     transition: .3s;
 }
 
@@ -149,7 +150,7 @@ h1, h3 {
 
 .button {
   border: none;
-  outline: 0;
+  outline: 2;
   display: inline-block;
   padding: 8px;
   color: white;
@@ -157,23 +158,14 @@ h1, h3 {
   text-align: center;
   cursor: pointer;
   width: 100%;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .button:hover {
-  background-color: rgb(15, 106, 197);
+  background-color: lightgray;
   transition: .3s;
 }
-
-footer {
-    width: 66%;
-    color: #22283B;
-    background: #f4f4f4;
-    border: 2px double #e0e0e0;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 40px;
- }
 
 @media screen and (min-width: 1200px) {
     .footer { 
@@ -185,7 +177,7 @@ footer {
     }
 
     .site-links > a {
-        font-size: 1.2rem;
+        font-size: 1.8rem;
     }
 }
 
