@@ -144,6 +144,14 @@ h1, h3 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-size: 20px;
+    position: sticky;
+    position: -webkit-sticky;
+    overflow: hidden;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    margin-left: 20px;
 }
 
 .logo a {
@@ -292,7 +300,7 @@ footer {
     font-size: 20px;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1280px) {
     .footer { 
         display: none;
     }
