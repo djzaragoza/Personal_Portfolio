@@ -8,7 +8,6 @@ body {
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5vh;
-    color: solid black;
     background-color: rgba(85, 171, 252, 0.712);
 }
 
@@ -25,28 +24,21 @@ h1, h3 {
 .about-logo {
     width: 100%;
     background-color: white;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
-.about-logo a:hover {
-    color: white;
-    transition: .3s;
+.about-site-links a {
+    text-decoration: none;
+    color: red;
+    margin: 0px 15px;
+    font-size: 25px;
 }
 
 .about-site-links {
-    display: flex;
-    flex-direction: row-reverse;
+    color: blue;
     font-size: 25px;
     float: left;
-}
-
-.about-site-links > a {
-    text-decoration: none;
-    color: black;
-    margin: 0px 15px;
+    text-align: center;
+    align-content: center;
 }
 
 .about-site-links > a:hover {
