@@ -8,7 +8,6 @@ body {
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5vh;
-    background-color: rgba(85, 171, 252, 0.712);
 }
 
 h1, h3 {
@@ -28,7 +27,7 @@ h1, h3 {
 
 .about-site-links a {
     text-decoration: none;
-    color: red;
+    color: darkgrey;
     margin: 0px 15px;
     font-size: 25px;
 }
@@ -37,12 +36,9 @@ h1, h3 {
     color: blue;
     font-size: 25px;
     float: left;
-    text-align: center;
-    align-content: center;
 }
 
-.about-site-links > a:hover {
+.about-site-links a:hover {
     text-decoration: none;
-    color: darkgrey;
     transition: .3s;
 }
