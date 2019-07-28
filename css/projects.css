@@ -71,7 +71,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5vh;
     color: solid black;
-    background-color: rgba(85, 171, 252, 0.712);
+    background-color: rgb(242, 244, 247);
 }
 
 h1, h3 {
@@ -103,6 +103,12 @@ h1, h3 {
     flex-direction: row-reverse;
     font-size: 25px;
     float: left;
+}
+
+@media screen and (min-width: 500px) {
+  .projects-site-links {
+    width: 40%;
+  }
 }
 
 .projects-site-links > a {
@@ -142,6 +148,7 @@ h1, h3 {
 /* Some left and right padding inside the container */
 .container {
   padding: 0 16px;
+  text-align: center;  
 }
 
 .title {
