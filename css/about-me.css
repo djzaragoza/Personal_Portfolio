@@ -71,7 +71,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5vh;
     color: solid black;
-    background-color: rgb(242, 244, 247);
+    background-color: white;
 }
 
 h1, h3 {
@@ -89,7 +89,28 @@ h1, h3 {
   float: left;
   margin-top: 55px;
   margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+}
 
+.djz p {
+  margin-top: 12px;
+  line-height: 1.2rem; 
+}
+
+.bio {
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: center;
+}
+
+.bio p {
+  font-family: 'Permanent Marker', cursive;
+  display: flex;
+  flex-direction: column;
+  font-size: 120px;
+  margin-left: -45px;
+  justify-content: center;
 }
 
 .about-logo {
