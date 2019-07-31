@@ -105,12 +105,13 @@ h1, h3 {
 }
 
 .bio p {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Annie Use Your Telescope', cursive;
   display: flex;
   flex-direction: column;
-  font-size: 120px;
+  font-size: 140px;
   margin-left: -45px;
   justify-content: center;
+  text-decoration: dotted underline;
 }
 
 .about-logo {
