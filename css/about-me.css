@@ -71,7 +71,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5vh;
     color: solid black;
-    background-color: rgba(85, 171, 252, 0.712);
+    background-color: white;
 }
 
 h1, h3 {
@@ -82,6 +82,35 @@ h1, h3 {
 
 .default_image {
   margin-bottom: -40px;
+  
+}
+
+.djz {
+  float: left;
+  margin-top: 55px;
+  margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.djz p {
+  margin-top: 12px;
+  line-height: 1.2rem; 
+}
+
+.bio {
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: center;
+}
+
+.bio p {
+  font-family: 'Permanent Marker', cursive;
+  display: flex;
+  flex-direction: column;
+  font-size: 120px;
+  margin-left: -45px;
+  justify-content: center;
 }
 
 .about-logo {
@@ -103,6 +132,13 @@ h1, h3 {
     flex-direction: row-reverse;
     font-size: 25px;
     float: left;
+}
+
+@media screen and (min-width: 500px) {
+  .about-site-links {
+    width: 40%;
+
+  }
 }
 
 .about-site-links > a {
