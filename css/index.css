@@ -271,19 +271,42 @@ h1, h3 {
 
 .bio {
   display: flex;
-  flex-direction: fos;
+  flex-direction: row;
   align-content: center;
   margin-top: 200px;
-  margin-left: 500px;
+  margin-left: 450px;
 }
 
 .bio p {
   font-family: 'Annie Use Your Telescope', cursive;
   flex-direction: column;
-  font-size: 100px;
-  margin-left: -65px;
-  margin-top: 40px;
+  font-size: 50px;
+  margin-left: -45px;
+  margin-top: 100px;
   text-decoration: dotted underline;
+}
+
+.date {
+    font-weight: 900;
+    font-size: 40px;
+    color: solid black;
+}
+
+.date p {
+    line-height: 1.5;
+}
+
+.data-content p {
+    text-align: center;
+    padding: 0 auto;
+}
+
+.date-content {
+    width: 65%;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 footer {
