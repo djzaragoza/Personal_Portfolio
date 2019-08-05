@@ -139,11 +139,6 @@ h1, h3 {
   }
 }
 
-/* Add some shadows to create a card effect */
-.card {
-  box-shadow: 0 8px 10px 0 rgba(0, 0, 1, 0.4);
-  margin-top: 100px;
-}
 
 /* Some left and right padding inside the container */
 .container {
@@ -151,28 +146,6 @@ h1, h3 {
   text-align: center;  
 }
 
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 2;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.button:hover {
-  background-color: lightgray;
-  transition: .3s;
-}
 
 @media screen and (min-width: 1200px) {
     .footer { 
@@ -183,7 +156,7 @@ h1, h3 {
         visibility: visible;
     }
 
-    .site-links > a {
+    .projects-site-links > a {
         font-size: 1.8rem;
     }
 }
@@ -194,6 +167,6 @@ h1, h3 {
     text-decoration: none;
     margin: 5px 4px;
     color: white;
-    transition: .4s;
+    transition: .3s;
 }
 
