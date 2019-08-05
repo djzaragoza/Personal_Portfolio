@@ -105,6 +105,36 @@ h1, h3 {
     float: left;
 }
 
+.middle-content {
+  display: flex;
+  margin: 0 2% 20px;
+  justify-content: space-around;
+}
+
+.middle-content .middle-container {
+  padding-right: 4%;
+  margin-top: 20px;
+}
+
+.middle-content .middle-container:last-child {
+  padding-right: 0;
+}
+
+.bottom-content {
+  display: flex;
+  margin: 0 2% 20px;
+  justify-content: space-around;
+}
+
+.bottom-content .bottom-container {
+  padding-right: 4%;
+  margin-top: 20px;
+}
+
+.bottom-content .bottom-container:last-child {
+  padding-right: 0;
+}
+
 @media screen and (min-width: 500px) {
   .projects-site-links {
     width: 40%;
