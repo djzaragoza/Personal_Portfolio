@@ -230,12 +230,12 @@ h1, h3 {
   opacity: 0;
   color: white;
   font-size: 20px;
-  padding: 45px;
+  padding: 15px;
   text-align: center;
 }
 
 .container:hover .overlay {
-  opacity: 1;
+  opacity: 2;
 }
 
 .middle-content {
@@ -274,6 +274,7 @@ h1, h3 {
   flex-direction: fos;
   align-content: center;
   margin-top: 200px;
+  margin-left: 500px;
 }
 
 .bio p {
