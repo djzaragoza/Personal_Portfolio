@@ -74,8 +74,10 @@ body {
 }
 
 .main-logo {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .main-logo a {
@@ -92,11 +94,23 @@ h1, h3 {
     padding: 10px 14px;
 }
 
+.djz {
+  float: left;
+  margin-top: 45px;
+  margin-left: 45px;
+  display: flex;
+  flex-direction: column;
+}
+
 .coder {
     font-size: 75px;
     font-family: 'Geostar', cursive;
     text-align: center;
     margin-top: 30px;
+}
+
+.coder p {
+    margin-right: 80px;
 }
 
 .coder-content {
@@ -106,7 +120,7 @@ h1, h3 {
 .coder-content p {
     font-size: 20px;
     line-height: 1.8;
-    margin-left: 300px;
+    margin-left: 400px;
     width: 60%;
     text-align: center;
     align-content: center;
@@ -209,7 +223,7 @@ h1, h3 {
   opacity: 0;
   color: white;
   font-size: 20px;
-  padding: 20px;
+  padding: 45px;
   text-align: center;
 }
 
@@ -220,6 +234,7 @@ h1, h3 {
 .middle-content {
   display: flex;
   margin: 0 2% 20px;
+  margin-top: 100px;
   justify-content: space-around;
 }
 
@@ -245,6 +260,22 @@ h1, h3 {
 
 .bottom-content .container:last-child {
   padding-right: 0;
+}
+
+.bio {
+  display: flex;
+  flex-direction: fos;
+  align-content: center;
+  margin-top: 200px;
+}
+
+.bio p {
+  font-family: 'Annie Use Your Telescope', cursive;
+  flex-direction: column;
+  font-size: 100px;
+  margin-left: -65px;
+  margin-top: 40px;
+  text-decoration: dotted underline;
 }
 
 footer {
