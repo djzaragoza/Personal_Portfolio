@@ -138,6 +138,13 @@ h1, h3 {
     text-decoration: underline;
 }
 
+@media only screen and (max-width: 500px) {
+    .projects p {
+        width: 100%;
+        margin-top: -375px;
+    }
+}
+
 .SD {
     font-weight: 900;
     color: solid black;
@@ -300,6 +307,15 @@ h1, h3 {
     font-weight: 900;
     font-size: 45px;
     color: solid black;
+}
+
+@media only screen and (max-width: 500px) {
+    .date-content p {
+        width: 100%;
+        margin: auto;
+        padding: auto;
+        margin-left: 20px;
+    }
 }
 
 .data-content p {
