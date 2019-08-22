@@ -228,6 +228,18 @@ h1, h3 {
   max-width: 300px;
 }
 
+@media only screen and (max-width: 500px) {
+    .container .devdeskque .todo .cafe {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container .timer .speech .game {
+        display: none;
+    }
+}
+
 .middle-img, .bottom-img {
   display: block;
   width: 100%;
