@@ -236,13 +236,37 @@ h1, h3 {
 }
 
 @media only screen and (max-width: 500px) {
-    .container .devdeskque .todo .cafe {
+    .container .devdeskque {
         width: 100%;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .container .timer .speech .game {
+    .container .todo {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container .cafe {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container .timer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container .speech {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container .game {
         display: none;
     }
 }
