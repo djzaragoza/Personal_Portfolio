@@ -95,6 +95,17 @@ h1, h3 {
     margin-top: 30px;
 }
 
+@media only screen and (max-width: 500px) {
+    .coder {
+        width: 100%;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .coder-content p {
+        visibility: hidden;
+    }
+}
+
 .coder p {
     margin-right: 80px;
 }
@@ -183,6 +194,12 @@ h1, h3 {
     margin-left: 20px;
 }
 
+@media only screen and (max-width: 500px) {
+    .logo {
+        width: 80%;
+    }
+}
+
 .logo a {
     text-decoration: none;
     font-size: 18px; 
@@ -195,7 +212,7 @@ h1, h3 {
     color: black;
     margin: 3px 3px;
     margin-top: -10px;
-    margin-right: -10px;
+    margin-right: -8px;
     margin-left: 12px;
 }
 
