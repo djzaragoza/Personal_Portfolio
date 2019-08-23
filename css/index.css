@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 /* styling */
 
 body {
+    margin: 0;
     height: 100vh;
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
@@ -88,6 +89,40 @@ h1, h3 {
   flex-direction: column;
 }
 
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: lightgrey;
+}
+
+ul.topnav li a.active {
+    background-color: lightgrey;
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    ul.topnav li.right, ul.topnav li {
+        float: none;
+    }
+}
+
 .coder {
     font-size: 75px;
     font-family: 'Geostar', cursive;
@@ -101,6 +136,9 @@ h1, h3 {
         margin-left: 25px;
         margin-top: 20px;
     }
+}
+
+@media only screen and (max-width: 500px) {
     .coder-content p {
         visibility: hidden;
     }
@@ -237,19 +275,22 @@ h1, h3 {
 
 @media only screen and (max-width: 500px) {
     .container .devdeskque {
-        width: 100%;
+        width: 80%;
+        visibility: visible;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .container .todo {
-        width: 100%;
+        width: 80%;
+        visibility: visible;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .container .cafe {
-        width: 100%;
+        width: 80%;
+        margin: auto;
     }
 }
 
@@ -336,8 +377,6 @@ h1, h3 {
 @media only screen and (max-width: 500px) {
     .date-content p {
         width: 100%;
-        margin: auto;
-        padding: auto;
         margin-left: 20px;
     }
 }
