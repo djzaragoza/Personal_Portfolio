@@ -237,19 +237,22 @@ h1, h3 {
 
 @media only screen and (max-width: 500px) {
     .container .devdeskque {
-        width: 100%;
+        width: 80%;
+        visibility: visible;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .container .todo {
-        width: 100%;
+        width: 80%;
+        visibility: visible;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .container .cafe {
-        width: 100%;
+        width: 80%;
+        margin: auto;
     }
 }
 
@@ -336,8 +339,6 @@ h1, h3 {
 @media only screen and (max-width: 500px) {
     .date-content p {
         width: 100%;
-        margin: auto;
-        padding: auto;
         margin-left: 20px;
     }
 }
