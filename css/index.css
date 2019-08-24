@@ -197,6 +197,15 @@ ul.topnav li.right {
     text-decoration: underline;
 }
 
+.non-stack-content {
+    width: 76%;
+    margin-left: 175px;
+    margin-top: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .projects p {
     font-size: 80px;
     text-align: center;
