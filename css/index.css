@@ -266,7 +266,7 @@ ul.topnav li.right {
 
 .site-links > a:hover {
     text-decoration: none;
-    color: red;
+    color: darkgrey;
     transition: .3s;
 }
 
@@ -299,19 +299,19 @@ ul.topnav li.right {
 
 @media only screen and (max-width: 500px) {
     .container .timer {
-        display: none;
+        visibility: hidden;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .container .speech {
-        display: none;
+        visibility: hidden;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .container .game {
-        display: none;
+        visibility: hidden;
     }
 }
 
@@ -329,15 +329,14 @@ ul.topnav li.right {
   color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
-  opacity: 0;
+  opacity: 2;
   color: white;
   font-size: 16px;
   padding: 15px;
-  text-align: center;
 }
 
 .container:hover .overlay {
-  opacity: 2;
+  color: yellow;
 }
 
 .middle-content {
@@ -362,14 +361,13 @@ ul.topnav li.right {
   width: 75%;
   display: flex;
   flex-direction: row-reverse;
-  margin: 0 7% 10px;
+  margin: 0 7% 20px;
   justify-content: space-around;
 }
 
 .bottom-content .container {
   padding-right: 1%;
   margin-top: 20px;
-  border-radius: 50%;
 }
 
 .bottom-content .container:last-child {
