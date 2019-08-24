@@ -174,7 +174,7 @@ ul.topnav li.right {
 }
 
 .stack {
-    color: lightgrey;
+    color: white;
     font-size: 55px;
     text-align: center;
     margin-top: 50px;
@@ -184,7 +184,7 @@ ul.topnav li.right {
 .stack-content {
     color: white;
     width: 76%;
-    margin-left: 175px;
+    margin-left: 100px;
     margin-top: 16px;
     text-align: center;
     display: flex;
@@ -192,7 +192,7 @@ ul.topnav li.right {
 }
 
 .non-stack {
-    color: lightgrey;
+    color: white;
     font-size: 55px;
     text-align: center;
     margin-top: 50px;
@@ -200,9 +200,9 @@ ul.topnav li.right {
 }
 
 .non-stack-content {
-    color: lightgrey;
+    color: white;
     width: 76%;
-    margin-left: 175px;
+    margin-left: 100px;
     margin-top: 16px;
     text-align: center;
     display: flex;
@@ -426,12 +426,12 @@ ul.topnav li.right {
 .data-content p {
     text-align: center;
     padding: 0 auto;
-    line-height: 1.5;
+    line-height: 2;
     font-family: 'Montserrat', sans-serif;
 }
 
 .date-content {
-    color: lightgrey;
+    color: white;
     width: 85%;
     text-align: center;
     margin-left: 100px;
@@ -440,7 +440,7 @@ ul.topnav li.right {
 }
 
 .bottom-half-container {
-    background-image: url("https://shemarlindie.files.wordpress.com/2014/12/eatsleepcode_fbcover.png");
+    background-image: url("https://res.cloudinary.com/teepublic/image/private/s--WNFDbKFF--/t_Preview/b_rgb:0f7b47,c_lpad,f_jpg,h_630,q_90,w_1200/v1484849763/production/designs/1121728_2.jpg");
     background-size: cover;
 }
 
