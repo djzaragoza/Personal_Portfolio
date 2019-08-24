@@ -423,10 +423,12 @@ ul.topnav li.right {
     }
 }
 
-.data-content p {
+.date-content p {
+    font-size: 16px;
+    color: lightgray;
     text-align: center;
     padding: 0 auto;
-    line-height: 2;
+    line-height: 1.8;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -436,7 +438,6 @@ ul.topnav li.right {
     text-align: center;
     margin-left: 100px;
     margin-top: 70px;
-    font-size: 14px;
 }
 
 .bottom-half-container {
