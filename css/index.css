@@ -173,40 +173,23 @@ ul.topnav li.right {
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.stack {
-    color: white;
-    font-size: 55px;
-    text-align: center;
-    margin-top: 50px;
-    text-decoration: underline;
-}
-
 .stack-content {
     color: white;
     width: 76%;
     margin-left: 100px;
     margin-top: 16px;
-    text-align: center;
-    display: flex;
+    text-align: right;
     justify-content: space-evenly;
 }
 
-.non-stack {
-    color: white;
-    font-size: 55px;
-    text-align: center;
-    margin-top: 50px;
-    text-decoration: underline;
-}
 
 .non-stack-content {
     color: white;
     width: 76%;
     margin-left: 100px;
     margin-top: 16px;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
+    text-align: right;
+    justify-content: space-between;
 }
 
 .projects p {
