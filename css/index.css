@@ -141,7 +141,7 @@ ul.topnav li.right {
 }
 
 .coder p {
-    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .coder-content {
@@ -159,10 +159,9 @@ ul.topnav li.right {
     font-size: 20px;
     color: white;
     line-height: 1.8;
-    margin-left: 400px;
+    margin-right: 200px;
     width: 60%;
     text-align: center;
-    align-content: center;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -190,6 +189,7 @@ ul.topnav li.right {
     visibility: visible;
     font-size: 30px;
     color: white;
+    margin-left: 45px;
     margin-top: 20px;
 }
 
