@@ -182,16 +182,6 @@ ul.topnav li.right {
     justify-content: space-evenly;
 }
 
-
-.non-stack-content {
-    color: white;
-    width: 76%;
-    margin-left: 100px;
-    margin-top: 16px;
-    text-align: right;
-    justify-content: space-between;
-}
-
 .projects p {
     font-size: 80px;
     text-align: center;
