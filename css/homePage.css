@@ -1,0 +1,18 @@
+body {
+    background: rgb(4, 13, 43);
+}
+
+.Header {
+    color: rgb(219, 219, 231);
+    font-size: 28px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.title {
+    color: rgb(224, 170, 179);
+    text-align: center;
+    font-size: 25px;
+    margin-top: -55px;
+    margin-bottom: 70px;
+}
