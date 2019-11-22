@@ -66,26 +66,20 @@ h1, h2, h3, h4, h5 {
 
 /* styling */
 
-body {
-    background-image: url("https://images.unsplash.com/photo-1546146830-2cca9512c68e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80");
-    background-repeat: no-repeat;
-    margin: 0;
-    width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5vh;
-}
-
-
 h1, h3 {
     font-family: 'Montserrat', sans-serif;
     background-color: #fff;
     padding: 10px 14px;
 }
 
+body {
+    background-color: rgb(14, 14, 15);
+}
+
 .djz {
-  float: left;
+  float: right;
   margin-top: 45px;
-  margin-left: 45px;
+  margin-right: 45px;
   display: flex;
   flex-direction: column;
 }
@@ -96,24 +90,23 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(248, 248, 248, 0.897);
 }
 
 ul.topnav li a {
     font-size: 17px;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 ul.topnav li a:hover:not(.active) {
-    background-color: lightgrey;
+    background-color: darkslategrey;
 }
 
 ul.topnav li a.active {
-    background-color: lightgrey;
+    background-color: white;
 }
 
 ul.topnav li.right {
@@ -148,7 +141,7 @@ ul.topnav li.right {
 }
 
 .coder p {
-    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .coder-content {
@@ -164,41 +157,16 @@ ul.topnav li.right {
 
 .coder-content p {
     font-size: 20px;
+    color: white;
     line-height: 1.8;
-    margin-left: 400px;
+    margin-right: 200px;
     width: 60%;
     text-align: center;
-    align-content: center;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.stack {
-    color: rgb(107, 86, 86);
-    font-size: 55px;
-    text-align: center;
-    margin-top: 50px;
-    text-decoration: underline;
-}
-
-.stack-content {
-    width: 76%;
-    margin-left: 175px;
-    margin-top: 16px;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.non-stack {
-    color: rgb(107, 86, 86);
-    font-size: 55px;
-    text-align: center;
-    margin-top: 50px;
-    text-decoration: underline;
-}
-
 .projects p {
-    font-size: 80px;
+    font-size: 50px;
     text-align: center;
     margin-top: 50px;
     text-decoration: underline;
@@ -213,38 +181,39 @@ ul.topnav li.right {
 
 .SD {
     font-weight: 900;
-    color: solid black;
+    color: white;
     font-size: 20px;
 }
 
 .lg-cta p {
     visibility: visible;
     font-size: 30px;
-    color: black;
+    color: white;
+    margin-left: 45px;
     margin-top: 20px;
 }
 
 .lg-cta a {
     float: right;
-    color: black;
+    color: white;
     text-decoration: underline;
     font-size: 3    0px;
     margin-right: 60px;
 }
 
 .lg-cta a:hover {
-    color: red;
+    color: white;
     transition: .3s;
 }
 
 .lg-cta p {
     font-size: 25px;
-    color: black;
+    color: lightgray;
 }
 
 .lg-cta h3 {
-    color: lightslategray;
-    background-color: #231f20;
+    color: white;
+    background-color: lightgray;
     font-size: 45px;
     text-align: center;
     align-content: center;
@@ -411,19 +380,21 @@ ul.topnav li.right {
     }
 }
 
-.data-content p {
+.date-content p {
+    font-size: 16px;
+    color: lightgray;
     text-align: center;
     padding: 0 auto;
-    line-height: 1.5;
+    line-height: 1.8;
     font-family: 'Montserrat', sans-serif;
 }
 
 .date-content {
+    color: white;
     width: 85%;
     text-align: center;
     margin-left: 100px;
     margin-top: 70px;
-    font-size: 14px;
 }
 
 @media screen and (max-width: 500px) {
