@@ -215,7 +215,7 @@ ul.topnav li.right {
 
 .coder {
     font-size: 75px;
-    font-family: 'Geostar', cursive;
+    font-family: 'Shadows Into Light', cursive;
     text-align: center;
     margin-top: 30px;
 }
@@ -357,47 +357,47 @@ ul.topnav li.right {
     transition: .3s;
 }
 
-.container {
+.card {
     position: relative;
     width: 50%;
     max-width: 200px;
 }
 
 @media only screen and (max-width: 500px) {
-    .container .devdeskque {
+    .card .devdeskque {
         width: 80%;
         visibility: visible;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .container .todo {
+    .card .todo {
         width: 80%;
         visibility: visible;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .container .cafe {
+    .card .cafe {
         width: 80%;
         margin: auto;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .container .timer {
+    .card .timer {
         visibility: hidden;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .container .speech {
+    .card .speech {
         visibility: hidden;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .container .game {
+    .card .game {
         visibility: hidden;
     }
 }
@@ -423,7 +423,7 @@ ul.topnav li.right {
     padding: 15px;
 }
 
-.container:hover .overlay {
+.card:hover .overlay {
     color: yellow;
 }
 
@@ -436,12 +436,12 @@ ul.topnav li.right {
     justify-content: space-around;
 }
 
-.middle-content .container {
+.middle-content .card {
     padding-right: 1%;
     margin-top: 20px;
 }
 
-.middle-content .container:last-child {
+.middle-content .card:last-child {
     padding-right: 0;
 }
 
@@ -453,12 +453,12 @@ ul.topnav li.right {
     justify-content: space-around;
 }
 
-.bottom-content .container {
+.bottom-content .card {
     padding-right: 1%;
     margin-top: 20px;
 }
 
-.bottom-content .container:last-child {
+.bottom-content .card:last-child {
     padding-right: 0;
 }
 
