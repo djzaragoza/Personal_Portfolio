@@ -176,6 +176,13 @@ body {
     display: flex;
 }
 
+p {
+    align-content: center;
+    color: white;
+    margin-left: 650px;
+    margin-top: 5px;
+}
+
 ul.topnav {
     list-style-type: none;
     width: 100%;
@@ -284,16 +291,14 @@ ul.topnav li.right {
 .logo {
     padding: 10px;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;;
-    font-size: 20px;
-    position: sticky;
-    position: -webkit-sticky;
+    font-size: 10px;
     overflow: hidden;
     padding: 0;
     top: 0;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 600px;
 }
 
 @media only screen and (max-width: 500px) {
