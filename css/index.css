@@ -183,6 +183,11 @@ body {
     font-weight: 500;
 }
 
+.info {
+    font-size: 16px;
+    font-weight: 500;
+}
+
 p {
     align-content: center;
     color: white;
