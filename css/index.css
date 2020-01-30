@@ -175,6 +175,14 @@ body {
     display: flex;
 }
 
+.title {
+    margin-left: 678px;
+    margin-top: 5px;
+    color: dodgerblue;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 p {
     align-content: center;
     color: white;
@@ -284,9 +292,10 @@ ul.topnav li.right {
 }
 
 .SD {
-    font-weight: 900;
+    font-weight: 400;
     color: white;
     font-size: 20px;
+    text-decoration: underline;
 }
 
 .logo {
