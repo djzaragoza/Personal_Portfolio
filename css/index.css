@@ -160,12 +160,11 @@ h5 {
 h1,
 h3 {
     font-family: 'Montserrat', sans-serif;
-    background-color: #fff;
     padding: 10px 14px;
 }
 
 body {
-    background-color: rgba(223, 22, 22, 0.062);
+    background-color: black;
 }
 
 .djz {
