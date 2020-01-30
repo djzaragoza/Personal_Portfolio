@@ -165,7 +165,7 @@ h3 {
 }
 
 body {
-    background-color: rgb(14, 14, 15);
+    background-color: rgba(223, 22, 22, 0.062);
 }
 
 .djz {
@@ -271,6 +271,8 @@ ul.topnav li.right {
     font-size: 50px;
     color: rgb(235, 223, 223);
     text-align: center;
+    align-content: center;
+    margin-right: 645px;
     margin-top: 50px;
     text-decoration: underline;
 }
