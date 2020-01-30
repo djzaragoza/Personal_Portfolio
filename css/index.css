@@ -218,6 +218,7 @@ ul.topnav li.right {
     font-family: 'Shadows Into Light', cursive;
     text-align: center;
     margin-top: 30px;
+    color: rgb(235, 223, 223);
 }
 
 @media only screen and (max-width: 500px) {
@@ -235,7 +236,7 @@ ul.topnav li.right {
 }
 
 .coder p {
-    margin-left: 300px;
+    margin-left: 300px; 
 }
 
 .coder-content {
@@ -261,6 +262,7 @@ ul.topnav li.right {
 
 .projects p {
     font-size: 50px;
+    color: rgb(235, 223, 223);
     text-align: center;
     margin-top: 50px;
     text-decoration: underline;
@@ -282,14 +284,12 @@ ul.topnav li.right {
 .lg-cta p {
     visibility: visible;
     font-size: 30px;
-    color: white;
     margin-left: 45px;
     margin-top: 20px;
 }
 
 .lg-cta a {
     float: right;
-    color: white;
     text-decoration: underline;
     font-size: 3 0px;
     margin-right: 60px;
@@ -318,7 +318,7 @@ ul.topnav li.right {
     padding: 10px;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;;
     font-size: 20px;
     position: sticky;
     position: -webkit-sticky;
@@ -344,16 +344,16 @@ ul.topnav li.right {
 .site-links a {
     text-decoration: none;
     font-size: 25px;
-    color: black;
-    margin: 3px 3px;
+    color: rgb(235, 223, 223);
+    margin: 1px 1px;
     margin-top: -3px;
-    margin-right: 5px;
+    margin-right: 2px;
     margin-left: 12px;
 }
 
 .site-links>a:hover {
     text-decoration: none;
-    color: darkgrey;
+    color: rgb(235, 223, 223);
     transition: .3s;
 }
 
@@ -424,7 +424,7 @@ ul.topnav li.right {
 }
 
 .card:hover .overlay {
-    color: yellow;
+    color: lightblue;
 }
 
 .middle-content {
