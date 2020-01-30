@@ -169,11 +169,10 @@ body {
 }
 
 .djz {
-    float: right;
+    align-content: center;
     margin-top: 45px;
     margin-right: 45px;
     display: flex;
-    flex-direction: column;
 }
 
 ul.topnav {
