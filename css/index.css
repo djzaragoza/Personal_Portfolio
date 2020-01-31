@@ -164,8 +164,9 @@ h3 {
 }
 
 body {
-    background-color: black;
+    background-color: white;
     margin: auto;
+    max-width: 100%; 
 }
 
 ul {
@@ -192,7 +193,7 @@ li a {
 }
 
 li a:hover:not(active) {
-    background-color: #111;
+    background-color: #4CAF60;
 }
 
 .active {
@@ -210,7 +211,7 @@ li a:hover:not(active) {
 .title {
     margin-left: 672px;
     margin-top: 5px;
-    color: rgb(22, 209, 22);
+    color: black;
     font-size: 18px;
     font-weight: 500;
 }
