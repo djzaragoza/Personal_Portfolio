@@ -211,6 +211,11 @@ li a:hover:not(active) {
 .topnav {
     background-color: black;
     overflow: hidden;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
 }
 
 .topnav a {
@@ -237,6 +242,14 @@ li a:hover:not(active) {
     display: none;
 }
 
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
@@ -257,6 +270,15 @@ li a:hover:not(active) {
         display: block;
         text-align: left;
     }
+}
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 18px;
 }
 
 .title {
