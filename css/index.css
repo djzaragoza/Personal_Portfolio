@@ -165,18 +165,50 @@ h3 {
 
 body {
     background-color: black;
+    margin: auto;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF60;
+}
+
+
 
 .djz {
     max-width: 100%;
     align-content: center;
-    margin-top: 45px;
+    margin-top: 80px;
     margin-left: 675px;
     display: flex;
 }
 
 .title {
-    margin-left: 678px;
+    margin-left: 672px;
     margin-top: 5px;
     color: rgb(22, 209, 22);
     font-size: 18px;
