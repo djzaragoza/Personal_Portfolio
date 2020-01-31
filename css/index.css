@@ -199,7 +199,6 @@ li a:hover:not(active) {
 }
 
 .djz {
-    max-width: 100%;
     align-content: center;
     margin-top: 150px;
     margin-left: 675px;
@@ -268,15 +267,6 @@ li a:hover:not(active) {
         display: block;
         text-align: left;
     }
-}
-
-.mobile-container {
-    max-width: 480px;
-    margin: auto;
-    background-color: #555;
-    height: 500px;
-    color: white;
-    border-radius: 18px;
 }
 
 .title {
