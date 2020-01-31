@@ -384,46 +384,6 @@ ul.topnav li.right {
     max-width: 200px;
 }
 
-@media only screen and (max-width: 500px) {
-    .card .devdeskque {
-        width: 80%;
-        visibility: visible;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .card .todo {
-        width: 80%;
-        visibility: visible;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .card .cafe {
-        width: 80%;
-        margin: auto;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .card .timer {
-        visibility: hidden;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .card .speech {
-        visibility: hidden;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .card .game {
-        visibility: hidden;
-    }
-}
-
-.middle-img,
 .bottom-img {
     display: block;
     width: 100%;
