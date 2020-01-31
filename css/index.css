@@ -209,11 +209,11 @@ li a:hover:not(active) {
 }
 
 .title {
-    margin-left: 672px;
+    margin-left: 650px;
     margin-top: 5px;
-    color: black;
-    font-size: 18px;
-    font-weight: 500;
+    color: #4CAF60; 
+    font-size: 23px;
+    font-weight: 700;
 }
 
 .info {
@@ -223,8 +223,9 @@ li a:hover:not(active) {
 
 p {
     align-content: center;
-    color: white;
-    margin-left: 650px;
+    line-height: .75em;
+    color: black;
+    margin-left: 622px;
     margin-top: 5px;
 }
 
@@ -314,7 +315,7 @@ ul.topnav li.right {
 
 .projects p {
     font-size: 50px;
-    color: rgb(235, 223, 223);
+    color: black;
     text-align: center;
     align-content: center;
     margin-right: 645px;
@@ -364,7 +365,7 @@ ul.topnav li.right {
 .site-links a {
     text-decoration: none;
     font-size: 25px;
-    color: rgb(235, 223, 223);
+    color: black;
     margin: 1px 1px;
     margin-top: -3px;
     margin-right: 2px;
@@ -373,7 +374,7 @@ ul.topnav li.right {
 
 .site-links>a:hover {
     text-decoration: none;
-    color: rgb(235, 223, 223);
+    color: #4CAF60;
     transition: .3s;
 }
 
