@@ -3,62 +3,153 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1.5;
+    line-height: 1.5;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
 
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     font-family: 'Andada', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Andada', sans-serif;
@@ -66,22 +157,137 @@ h1, h2, h3, h4, h5 {
 
 /* styling */
 
-h1, h3 {
+h1,
+h3 {
     font-family: 'Montserrat', sans-serif;
-    background-color: #fff;
     padding: 10px 14px;
 }
 
 body {
-    background-color: rgb(14, 14, 15);
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(active) {
+    background-color: #4CAF60;
+}
+
+.active {
+    background-color: #4CAF60;
 }
 
 .djz {
-  float: right;
-  margin-top: 45px;
-  margin-right: 45px;
-  display: flex;
-  flex-direction: column;
+    align-content: center;
+    margin-top: 150px;
+    margin-left: 675px;
+    display: flex;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topnav a:hover {
+    background-color: #4CAF60;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #4CAF60;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.title {
+    margin-left: 650px;
+    margin-top: 20px;
+    color: #4CAF60; 
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.info {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+p {
+    align-content: center;
+    line-height: .75em;
+    color: black;
+    margin-left: 622px;
+    margin-top: 5px;
 }
 
 ul.topnav {
@@ -114,16 +320,19 @@ ul.topnav li.right {
 }
 
 @media screen and (max-width: 500px) {
-    ul.topnav li.right, ul.topnav li {
+
+    ul.topnav li.right,
+    ul.topnav li {
         float: none;
     }
 }
 
 .coder {
     font-size: 75px;
-    font-family: 'Geostar', cursive;
+    font-family: 'Shadows Into Light', cursive;
     text-align: center;
     margin-top: 30px;
+    color: rgb(235, 223, 223);
 }
 
 @media only screen and (max-width: 500px) {
@@ -141,7 +350,7 @@ ul.topnav li.right {
 }
 
 .coder p {
-    margin-left: 80px;
+    margin-left: 300px; 
 }
 
 .coder-content {
@@ -167,7 +376,10 @@ ul.topnav li.right {
 
 .projects p {
     font-size: 50px;
+    color: black;
     text-align: center;
+    align-content: center;
+    margin-right: 645px;
     margin-top: 50px;
     text-decoration: underline;
 }
@@ -180,59 +392,23 @@ ul.topnav li.right {
 }
 
 .SD {
-    font-weight: 900;
+    font-weight: 400;
     color: white;
     font-size: 20px;
-}
-
-.lg-cta p {
-    visibility: visible;
-    font-size: 30px;
-    color: white;
-    margin-left: 45px;
-    margin-top: 20px;
-}
-
-.lg-cta a {
-    float: right;
-    color: white;
     text-decoration: underline;
-    font-size: 3    0px;
-    margin-right: 60px;
-}
-
-.lg-cta a:hover {
-    color: white;
-    transition: .3s;
-}
-
-.lg-cta p {
-    font-size: 25px;
-    color: lightgray;
-}
-
-.lg-cta h3 {
-    color: white;
-    background-color: lightgray;
-    font-size: 45px;
-    text-align: center;
-    align-content: center;
-    font-family: 'Permanent Marker', cursive;
 }
 
 .logo {
     padding: 10px;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-    position: sticky;
-    position: -webkit-sticky;
+    justify-content: space-around;
+    align-items: center;;
+    font-size: 10px;
     overflow: hidden;
     padding: 0;
     top: 0;
     width: 100%;
-    margin-left: 20px;
+    margin-left: 600px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -243,7 +419,7 @@ ul.topnav li.right {
 
 .logo a {
     text-decoration: none;
-    font-size: 18px; 
+    font-size: 18px;
     justify-content: space-between;
 }
 
@@ -251,120 +427,81 @@ ul.topnav li.right {
     text-decoration: none;
     font-size: 25px;
     color: black;
-    margin: 3px 3px;
+    margin: 1px 1px;
     margin-top: -3px;
-    margin-right: 5px;
+    margin-right: 2px;
     margin-left: 12px;
 }
 
-.site-links > a:hover {
+.site-links>a:hover {
     text-decoration: none;
-    color: darkgrey;
+    color: #4CAF60;
     transition: .3s;
 }
 
-.container {
-  position: relative;
-  width: 50%;
-  max-width: 200px;
+.card {
+    position: relative;
+    width: 50%;
+    max-width: 200px;
 }
 
-@media only screen and (max-width: 500px) {
-    .container .devdeskque {
-        width: 80%;
-        visibility: visible;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .container .todo {
-        width: 80%;
-        visibility: visible;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .container .cafe {
-        width: 80%;
-        margin: auto;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .container .timer {
-        visibility: hidden;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .container .speech {
-        visibility: hidden;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .container .game {
-        visibility: hidden;
-    }
-}
-
-.middle-img, .bottom-img {
-  display: block;
-  width: 100%;
-  height: auto;
+.bottom-img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  transition: .5s ease;
-  opacity: 2;
-  color: white;
-  font-size: 16px;
-  padding: 15px;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 2;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
 }
 
-.container:hover .overlay {
-  color: yellow;
+.card:hover .overlay {
+    color: lightblue;
 }
 
 .middle-content {
-  width: 85%;
-  display: flex;
-  flex-direction: row;
-  margin: 0 2% 20px;
-  margin-top: 100px;
-  justify-content: space-around;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 2% 20px;
+    margin-top: 100px;
+    justify-content: space-around;
 }
 
-.middle-content .container {
-  padding-right: 1%;
-  margin-top: 20px;
+.middle-content .card {
+    padding-right: 1%;
+    margin-top: 20px;
 }
 
-.middle-content .container:last-child {
-  padding-right: 0;
+.middle-content .card:last-child {
+    padding-right: 0;
 }
 
 .bottom-content {
-  width: 75%;
-  display: flex;
-  flex-direction: row-reverse;
-  margin: 0 7% 20px;
-  justify-content: space-around;
+    width: 75%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 7% 20px;
+    justify-content: space-around;
 }
 
-.bottom-content .container {
-  padding-right: 1%;
-  margin-top: 20px;
+.bottom-content .card {
+    padding-right: 1%;
+    margin-top: 20px;
 }
 
-.bottom-content .container:last-child {
-  padding-right: 0;
+.bottom-content .card:last-child {
+    padding-right: 0;
 }
 
 .date {
@@ -398,7 +535,7 @@ ul.topnav li.right {
 }
 
 @media screen and (max-width: 500px) {
-    .middle-content { 
+    .middle-content {
         display: none;
     }
 
@@ -406,7 +543,7 @@ ul.topnav li.right {
         visibility: visible;
     }
 
-    .site-links > a {
+    .site-links>a {
         font-size: 1.2rem;
     }
 }
