@@ -164,8 +164,9 @@ h3 {
 }
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=693&q=80);
+    background-image: url(https://images.unsplash.com/photo-1542546068979-b6affb46ea8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
     background-repeat: no-repeat;
+    background-size: 37% 100%;
     background-color: white;
 }
 
@@ -250,7 +251,10 @@ li a:hover:not(active) {
 }
 
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
     .topnav a.icon {
         float: right;
         display: block;
@@ -258,12 +262,16 @@ li a:hover:not(active) {
 }
 
 @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {
+        position: relative;
+    }
+
     .topnav.responsive a.icon {
         position: absolute;
         right: 0;
         top: 0;
     }
+
     .topnav.responsive a {
         float: none;
         display: block;
@@ -274,7 +282,7 @@ li a:hover:not(active) {
 .title {
     margin-left: 650px;
     margin-top: 20px;
-    color: #4CAF60; 
+    color: #4CAF60;
     font-size: 23px;
     font-weight: 700;
 }
@@ -352,7 +360,7 @@ ul.topnav li.right {
 }
 
 .coder p {
-    margin-left: 300px; 
+    margin-left: 300px;
 }
 
 .coder-content {
@@ -404,7 +412,8 @@ ul.topnav li.right {
     padding: 10px;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;;
+    align-items: center;
+    ;
     font-size: 10px;
     overflow: hidden;
     padding: 0;
