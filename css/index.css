@@ -413,7 +413,6 @@ ul.topnav li.right {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    ;
     font-size: 10px;
     overflow: hidden;
     padding: 0;
@@ -437,7 +436,7 @@ ul.topnav li.right {
 .site-links a {
     text-decoration: none;
     font-size: 25px;
-    color: black;
+    color: white;
     margin: 1px 1px;
     margin-top: -3px;
     margin-right: 2px;
@@ -448,6 +447,16 @@ ul.topnav li.right {
     text-decoration: none;
     color: #4CAF60;
     transition: .3s;
+}
+
+.site-links-b a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin: 1px 1px;
+    margin-top: -3px;
+    margin-right: 2px;
+    margin-left: 12px;
 }
 
 .card {
