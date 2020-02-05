@@ -164,6 +164,9 @@ h3 {
 }
 
 body {
+    background-image: url(https://static9.depositphotos.com/1008347/1224/i/950/depositphotos_12244623-stock-photo-cup-of-spilling-coffee-creating.jpg);
+    background-repeat: no-repeat;
+    background-size: 47% 100%;
     background-color: white;
 }
 
@@ -248,7 +251,10 @@ li a:hover:not(active) {
 }
 
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
     .topnav a.icon {
         float: right;
         display: block;
@@ -256,12 +262,16 @@ li a:hover:not(active) {
 }
 
 @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
+    .topnav.responsive {
+        position: relative;
+    }
+
     .topnav.responsive a.icon {
         position: absolute;
         right: 0;
         top: 0;
     }
+
     .topnav.responsive a {
         float: none;
         display: block;
@@ -272,7 +282,7 @@ li a:hover:not(active) {
 .title {
     margin-left: 650px;
     margin-top: 20px;
-    color: #4CAF60; 
+    color: #4CAF60;
     font-size: 23px;
     font-weight: 700;
 }
@@ -350,7 +360,7 @@ ul.topnav li.right {
 }
 
 .coder p {
-    margin-left: 300px; 
+    margin-left: 300px;
 }
 
 .coder-content {
@@ -402,7 +412,7 @@ ul.topnav li.right {
     padding: 10px;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;;
+    align-items: center;
     font-size: 10px;
     overflow: hidden;
     padding: 0;
@@ -426,7 +436,7 @@ ul.topnav li.right {
 .site-links a {
     text-decoration: none;
     font-size: 25px;
-    color: black;
+    color: white;
     margin: 1px 1px;
     margin-top: -3px;
     margin-right: 2px;
@@ -437,6 +447,16 @@ ul.topnav li.right {
     text-decoration: none;
     color: #4CAF60;
     transition: .3s;
+}
+
+.site-links-b a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin: 1px 1px;
+    margin-top: -3px;
+    margin-right: 2px;
+    margin-left: 12px;
 }
 
 .card {
