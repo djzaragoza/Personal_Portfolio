@@ -168,8 +168,12 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-content: center;
+}
 
+.btn btn-primary {
+    background-color: #4CAF60;
 }
 
 .topnav {
