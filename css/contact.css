@@ -162,20 +162,6 @@ body {
     background-color: white;
 }
 
-.projects {
-    margin-bottom: 20px;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-
-.btn btn-primary {
-    background-color: #4CAF60;
-}
-
 .topnav {
     background-color: black;
     overflow: hidden;
@@ -245,4 +231,14 @@ body {
         display: block;
         text-align: left;
     }
+}
+
+form {
+    display: flex-start;
+    align-content: center;
+    text-align: center;
+}
+
+input {
+    flex-grow: 1;
 }

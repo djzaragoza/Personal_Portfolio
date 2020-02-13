@@ -164,9 +164,9 @@ h3 {
 }
 
 body {
-    background-image: url(https://static9.depositphotos.com/1008347/1224/i/950/depositphotos_12244623-stock-photo-cup-of-spilling-coffee-creating.jpg);
+    background-image: url(https://images.unsplash.com/photo-1445620466293-d6316372ab59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
     background-repeat: no-repeat;
-    background-size: 47% 100%;
+    background-size: 50% 100%;
     background-color: white;
 }
 
@@ -436,7 +436,7 @@ ul.topnav li.right {
 .site-links a {
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: black;
     margin: 1px 1px;
     margin-top: -3px;
     margin-right: 2px;
@@ -447,16 +447,6 @@ ul.topnav li.right {
     text-decoration: none;
     color: #4CAF60;
     transition: .3s;
-}
-
-.site-links-b a {
-    text-decoration: none;
-    font-size: 25px;
-    color: white;
-    margin: 1px 1px;
-    margin-top: -3px;
-    margin-right: 2px;
-    margin-left: 12px;
 }
 
 .card {
