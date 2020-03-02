@@ -163,12 +163,17 @@ h3 {
     padding: 10px 14px;
 }
 
-/*body {
-    background-image: url(https://images.unsplash.com/photo-1445620466293-d6316372ab59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
-    background-repeat: no-repeat;
-    background-size: 50% 100%;
-    background-color: white;
+
+
+body {
+    width: 100%;
 }
+
+.row {
+    background-color: darkgrey
+}
+
+/*
 
 ul {
     list-style-type: none;
@@ -574,4 +579,5 @@ ul.topnav li.right {
 .fa:hover {
     color: rgb(173, 36, 173);
     transition: .3s;
-}*/
+}
+*/
