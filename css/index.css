@@ -163,12 +163,16 @@ h3 {
     padding: 10px 14px;
 }
 
+/* Styling */
 
-
-body {
-    width: 100%;
+.row-grey{
+    background-color: lightgrey;
 }
-
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 
 /*
 
