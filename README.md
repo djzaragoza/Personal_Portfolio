@@ -1,4 +1,4 @@
 # Personal_Portfolio
 
-Portfolio site built with Vanilla JS, HTML and CSS with some React and hooks.
+Portfolio site built with HTML, CSS, webkits, bootstrap and React hooks.
 
