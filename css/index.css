@@ -166,12 +166,19 @@ h3 {
 /* Styling */
 
 .row-grey{
-    background-color: lightgrey;
+    background-color: rgb(231, 235, 243);
 }
+
 .container-fluid {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
 }
 
 /*
