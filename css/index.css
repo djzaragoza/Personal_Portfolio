@@ -165,8 +165,18 @@ h3 {
 
 /* Styling */
 
+body {
+    background-color: #e1f4f3;
+}
+
 .row-grey{
-    background-color: rgb(231, 235, 243);
+    background-color: #ffffff;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.row-grey a {
+    text-align: center;
 }
 
 .container-fluid {
@@ -208,6 +218,7 @@ footer {
 .px-sm-5 p {
     text-align: center;
 }
+
 
 
 
