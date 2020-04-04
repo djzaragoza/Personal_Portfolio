@@ -166,17 +166,31 @@ h3 {
 /* Styling */
 
 body {
-    background-color: #e1f4f3;
+    background-color: #000000;
 }
 
 .row-grey{
-    background-color: #ffffff;
+    background-color: #ff1e56;
     align-content: center;
     margin-top: 10px;
 }
 
+p {
+    color: white;
+}
+
+.text-center a {
+    color: #ffac41;
+}
+
+.inspiration {
+    color: white;
+}
+
 .row-grey a {
     text-align: center;
+    color: #323232;
+    font-weight: 400;
 }
 
 .container-fluid {
@@ -186,36 +200,46 @@ body {
 }
 
 footer {
+    color: white;
     text-align: center;
     margin-top: 20px;
     font-weight: 600;
 }
 
 .text-center h5 {
+    color: white;
     font-weight: 600;
     font-size: 22px;
     text-decoration: underline;
 }
 
 .text-center h1 {
+    color: white;
     font-size: 28px;
     font-weight: 600;
     
 }
 
 .text-center h3 {
+    color: #84a9ac;
     font-weight: 600;
     font-size: 22px;
     text-decoration: underline;
 }
 
 .text-center h2 {
+    color: white;
     font-weight: 600;
     font-size: 22px;
     text-decoration: underline;
 }
 
 .px-sm-5 p {
+    color: white;
+}
+
+.px-sm-6 p {
+    color: white;
     text-align: center;
 }
 
